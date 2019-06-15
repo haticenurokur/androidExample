@@ -8,4 +8,4 @@ Fragment Nasıl Açılır?
 
 ![ScreenShot] (https://raw.githubusercontent.com/haticenurokur/androidExample/blob/master/open_fragment_2.png)
 
-[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-Custom%20Navigation%20Drawer-green.svg?style=flat )]( https://android-arsenal.com/details/1/6876 )
+[![Android Arsenal]( https://raw.githubusercontent.com/haticenurokur/androidExample/blob/master/open_fragment_2.png )]( https://android-arsenal.com/details/1/6876 )
