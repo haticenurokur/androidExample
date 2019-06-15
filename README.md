@@ -7,3 +7,5 @@ Fragment Nasıl Açılır?
 ![ScreenShot] (open_fragment_1.png)
 
 ![ScreenShot] (https://raw.githubusercontent.com/haticenurokur/androidExample/blob/master/open_fragment_2.png)
+
+[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-Custom%20Navigation%20Drawer-green.svg?style=flat )]( https://android-arsenal.com/details/1/6876 )
