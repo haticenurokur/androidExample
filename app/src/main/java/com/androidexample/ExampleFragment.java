@@ -41,7 +41,7 @@ public class ExampleFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_example, container, false);
 
-        ButterKnife.bind(this,view);
+        ButterKnife.bind(this,view); // butterknife ile bağlıyor objeleri
 
         counter = 0;
 
@@ -67,7 +67,7 @@ public class ExampleFragment extends Fragment {
         // Fragmenlarda activity metodu çağırmak için başına getActivity() yazılır.
         FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.content_frame, new SecondFragment());
-        transaction.addToBackStack(null);
+        transaction.addToBackStack(null); // geri dönme stack'ine ekler
         transaction.commitAllowingStateLoss();
 
     }

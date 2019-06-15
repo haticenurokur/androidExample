@@ -15,8 +15,11 @@ public class MainActivity extends AppCompatActivity {
         // Yeni Fragment aşağıdaki 4 satır kod ile açılır
 
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+
+        // hangi fragmenta gitmek istiyorsan onu buraya yazıyorsun
         transaction.replace(R.id.content_frame, new ExampleFragment());
-        transaction.disallowAddToBackStack();
+
+        transaction.disallowAddToBackStack(); // bu geri dönme stack'ine eklemez
         transaction.commitAllowingStateLoss();
     }
 
@@ -25,10 +28,10 @@ public class MainActivity extends AppCompatActivity {
 
         int count = getSupportFragmentManager().getBackStackEntryCount();
 
-        if (count == 0) {
+        if (count == 0) { // eğer en başa geldiyse uygulamadan çıkar
             super.onBackPressed();
-            //additional code
-        } else {
+
+        } else { // eğer daha geri gelecek fragment varsa bir öncekine döner.
             getSupportFragmentManager().popBackStack();
         }
 
